@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service · Unofficial FTC Scorer</title>
+<style>
+:root{
+  --green:#30D158;
+  --gbdr:rgba(48,209,88,.16);
+  --gbdr2:rgba(48,209,88,.30);
+  --g0:rgba(48,209,88,.055);
+  --g1:rgba(48,209,88,.10);
+  --t1:rgba(255,255,255,.95);
+  --t2:rgba(255,255,255,.58);
+  --t3:rgba(255,255,255,.32);
+  --bg0:#04060e;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{
+  background:var(--bg0);color:var(--t1);min-height:100%;
+  font-family:-apple-system,'SF Pro Display','SF Pro Text',BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  line-height:1.7;
+}
+body::before{
+  content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 75% 65% at 10% -5%, rgba(48,209,88,.13) 0%, transparent 60%),
+    radial-gradient(ellipse 65% 55% at 92% 105%, rgba(48,209,88,.09) 0%, transparent 55%),
+    radial-gradient(ellipse 55% 45% at 52% 52%, rgba(48,209,88,.04) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 35% at 80% 10%, rgba(48,209,88,.07) 0%, transparent 50%);
+}
+.wrap{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:48px 24px 64px}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:40px;flex-wrap:wrap;gap:12px}
+.back-link{
+  font-size:13px;font-weight:600;color:var(--green);text-decoration:none;letter-spacing:.3px;
+  display:flex;align-items:center;gap:6px;opacity:.85;transition:opacity .2s;
+}
+.back-link:hover{opacity:1}
+.badge{
+  font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;
+  padding:4px 14px;border-radius:50px;
+  background:rgba(48,209,88,.12);border:1px solid rgba(48,209,88,.28);color:var(--green);
+}
+h1{font-size:clamp(26px,5vw,36px);font-weight:700;letter-spacing:-.5px;margin-bottom:6px}
+.meta{font-size:12px;color:var(--t3);margin-bottom:36px}
+section{margin-bottom:32px}
+h2{
+  font-size:15px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;
+  color:var(--green);margin-bottom:10px;
+}
+p{font-size:15px;color:var(--t2);margin-bottom:10px}
+p:last-child{margin-bottom:0}
+ul{padding-left:20px;margin-bottom:10px}
+li{font-size:15px;color:var(--t2);margin-bottom:6px}
+.card{
+  background:var(--g0);border:1px solid var(--gbdr);border-radius:16px;
+  padding:20px 24px;margin-bottom:32px;
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+}
+.card p,.card li{color:var(--t1)}
+hr{border:none;border-top:1px solid rgba(48,209,88,.10);margin:36px 0}
+footer{
+  margin-top:48px;padding-top:20px;border-top:1px solid rgba(48,209,88,.08);
+  font-size:11px;color:var(--t3);text-align:center;display:flex;flex-direction:column;gap:8px;
+}
+footer a{color:rgba(48,209,88,.55);text-decoration:none}
+footer a:hover{color:var(--green)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="back-link" href="index.html">← Back to Scorer</a>
+    <span class="badge">Legal</span>
+  </header>
+
+  <h1>Terms of Service</h1>
+  <p class="meta">Unofficial FTC Scorer · Last updated March 2026</p>
+
+  <div class="card">
+    <p><strong>Short version:</strong> This is a free, unofficial tool. Use it as-is, at your own risk. It is not affiliated with <em>FIRST</em>. Don't use it for anything other than scoring FTC matches.</p>
+  </div>
+
+  <section>
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using the Unofficial FTC Scorer ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.</p>
+  </section>
+
+  <section>
+    <h2>2. Description of the App</h2>
+    <p>The Unofficial FTC Scorer is a free, open-source, browser-based scoring tool developed by <strong>Team 12560 Soft Hoarders</strong> (Craiova, Romania) to assist referees and teams in tracking match scores for the <em>FIRST</em> Tech Challenge DECODE 2025–26 season.</p>
+  </section>
+
+  <section>
+    <h2>3. No Affiliation with FIRST</h2>
+    <p>This App is <strong>unofficial</strong> and is not affiliated with, endorsed by, sponsored by, or in any way officially connected to <em>FIRST</em> (For Inspiration and Recognition of Science and Technology), <em>FIRST</em> Tech Challenge, or any of their partners or affiliates. <em>FIRST</em> and FTC are registered trademarks of their respective owners.</p>
+    <p>This App must not be used as a substitute for official scoring systems at sanctioned competitions. It is intended for practice, scouting, and unofficial reference purposes only.</p>
+  </section>
+
+  <section>
+    <h2>4. Permitted Use</h2>
+    <p>You may use the App for:</p>
+    <ul>
+      <li>Practice matches and scrimmages</li>
+      <li>Scouting and match preparation</li>
+      <li>Unofficial tracking at non-sanctioned events</li>
+      <li>Educational and learning purposes</li>
+    </ul>
+    <p>The App is free to use, copy, and modify under the terms of the <strong>GNU General Public License v3</strong>. Source code is available at <a href="https://github.com/softhoarders/ftc-decode-scoring" style="color:rgba(48,209,88,.7)">github.com/softhoarders/ftc-decode-scoring</a>.</p>
+  </section>
+
+  <section>
+    <h2>5. Prohibited Use</h2>
+    <p>You must not:</p>
+    <ul>
+      <li>Use the App as the official scoring system at any sanctioned <em>FIRST</em> event</li>
+      <li>Misrepresent scores produced by this App as official results</li>
+      <li>Use the App in any manner that violates applicable laws or regulations</li>
+      <li>Remove or alter copyright notices or attribution present in the source code</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Accuracy Disclaimer</h2>
+    <p>While we strive to keep the scoring logic accurate and up to date with the official DECODE game manual, <strong>we make no guarantee that the scores produced by this App are correct or match the official game rules.</strong> Game rules may change, and this App may not reflect the latest updates. Always refer to the official FTC game manual for authoritative rules.</p>
+  </section>
+
+  <section>
+    <h2>7. No Warranty</h2>
+    <p>The App is provided <strong>"as is"</strong>, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall Team 12560 Soft Hoarders or its contributors be liable for any claim, damages, or other liability arising from the use of the App.</p>
+  </section>
+
+  <section>
+    <h2>8. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by applicable law, Team 12560 Soft Hoarders shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data or match records, arising out of or in connection with your use of the App.</p>
+  </section>
+
+  <section>
+    <h2>9. Open Source License</h2>
+    <p>The source code of this App is licensed under the <strong>GNU General Public License v3</strong>. Your rights to copy, modify, and redistribute the code are governed by that license. These Terms of Service govern your use of the App as a running service or web application and do not restrict the rights granted to you by the GPL.</p>
+  </section>
+
+  <section>
+    <h2>10. Changes to These Terms</h2>
+    <p>We reserve the right to update these Terms of Service at any time. Changes will be reflected in the updated file in the public repository. Continued use of the App after changes constitutes acceptance of the new terms.</p>
+  </section>
+
+  <section>
+    <h2>11. Governing Law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of Romania, without regard to its conflict of law provisions.</p>
+  </section>
+
+  <hr>
+
+  <footer>
+    <div>Developed with 💚 by <strong style="color:rgba(48,209,88,.55)">Team 12560 Soft Hoarders</strong> · Craiova, Romania</div>
+    <div>
+      <a href="index.html">Scorer</a> ·
+      <a href="privacy-policy.html">Privacy Policy</a> ·
+      <a href="tos.html">Terms of Service</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
